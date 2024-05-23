@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
+import { useState } from 'react';
+import { handleGetRequest, handlePostRequest } from './actions/actions';
 
 function App() {
+  const [name, setName] = useState('');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* GET REQUEST */}
+      <div className='inputfields'>
+        <button onClick={() => handleGetRequest()}>Get request</button>
+      </div>
+
+      <hr />
+
+      {/* POST REQUEST */}
+      <div className='inputfields'>
+        <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+        <button onClick={() => handlePostRequest(name)}>Post request</button>
+      </div>
     </div>
   );
 }
