@@ -8,4 +8,10 @@ router.get('/', function (req, res, next) {
   });
 });
 
+router.post('/register', function (req, res, next) {
+  res.json({
+    message: 'Register' + req.body.name
+  });
+});
+
 module.exports = router;
