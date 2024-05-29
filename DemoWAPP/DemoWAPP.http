@@ -1,0 +1,6 @@
+@DemoWAPP_HostAddress = http://localhost:5155
+
+GET {{DemoWAPP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

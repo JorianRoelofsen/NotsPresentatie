@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|c:\\documenten\\nots\\notspresentatie\\demowapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|c:\\documenten\\nots\\notspresentatie\\demowapp\\demowapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|solutionrelative:demowapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|c:\\documenten\\nots\\notspresentatie\\demowapp\\demowapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|solutionrelative:demowapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|c:\\documenten\\nots\\notspresentatie\\demowapp\\controllers\\startcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|solutionrelative:controllers\\startcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|c:\\documenten\\nots\\notspresentatie\\demowapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678A4C77-CE08-47F6-B4E7-FA9E64857434}|DemoWAPP.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DemoWAPP",
+              "DocumentMoniker": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\DemoWAPP.csproj",
+              "RelativeDocumentMoniker": "DemoWAPP.csproj",
+              "ToolTip": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\DemoWAPP.csproj",
+              "RelativeToolTip": "DemoWAPP.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-29T13:19:13.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DemoWAPP.http",
+              "DocumentMoniker": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\DemoWAPP.http",
+              "RelativeDocumentMoniker": "DemoWAPP.http",
+              "ToolTip": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\DemoWAPP.http",
+              "RelativeToolTip": "DemoWAPP.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-29T13:18:57.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartController.cs",
+              "DocumentMoniker": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Controllers\\StartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StartController.cs",
+              "ToolTip": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Controllers\\StartController.cs",
+              "RelativeToolTip": "Controllers\\StartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:05:51.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T12:56:17.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T12:52:48.572Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
