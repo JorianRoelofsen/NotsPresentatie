@@ -18,11 +18,11 @@ if (app.Environment.IsDevelopment())
 
 app.Use(async (context, next) =>
 {
-    //add x-content-type-options header
-    context.Response.Headers.Add("X-Content-Type-Options", "nosniff");
-    //add Strict-Transport-Security header
-    context.Response.Headers.Add("Strict-Transport-Security",
-        "max-age=31536000; includeSubDomains");
+    ////add x-content-type-options header
+    //context.Response.Headers.Add("X-Content-Type-Options", "nosniff");
+    ////add Strict-Transport-Security header
+    //context.Response.Headers.Add("Strict-Transport-Security",
+    //    "max-age=31536000; includeSubDomains");
     await next();
 });
 
