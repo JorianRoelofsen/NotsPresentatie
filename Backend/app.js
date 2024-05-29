@@ -3,31 +3,24 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var cors = require('cors');
 
 var indexRouter = require('./routes/index');
 
 var app = express();
 
-//Disable the X-Powered-By header
-app.disable('x-powered-by');
+// //Disable the X-Powered-By header
+// app.disable('x-powered-by');
 
-//Set the X-Content-Type-Options header to nosniff
-app.use((req, res, next) => {
-  res.setHeader('X-Content-Type-Options', 'nosniff');
-  next();
-});
+// //Set the X-Content-Type-Options header to nosniff
+// app.use((req, res, next) => {
+//   res.setHeader('X-Content-Type-Options', 'nosniff');
+//   next();
+// });
 
 // enable CORS
-app.use(cors({origin: 'http://localhost:3000'}));
-
-// Define the rate limit rules
-const limiter = rateLimit({
-  windowMs: 2000, // 2 seconds
-  max: 5, // limit each IP to 2 requests per windowMs
-  message: 'Too many requests from this IP, please try again later.',
-});
-
-app.use(limiter);
+app.use(cors());
+// app.use(cors({origin: 'http://localhost:3000'}));
 
 app.use(logger('dev'));
 app.use(express.json());
