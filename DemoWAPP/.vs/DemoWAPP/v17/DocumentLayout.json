@@ -35,15 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DemoWAPP",
+              "Title": "DemoWAPP.csproj",
               "DocumentMoniker": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\DemoWAPP.csproj",
               "RelativeDocumentMoniker": "DemoWAPP.csproj",
               "ToolTip": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\DemoWAPP.csproj",
               "RelativeToolTip": "DemoWAPP.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-29T13:19:13.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T13:19:13.939Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "DemoWAPP.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-29T13:18:57.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T13:18:57.673Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Controllers\\StartController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T13:05:51.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T13:05:51.687Z"
             },
             {
               "$type": "Document",
@@ -77,9 +74,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAxAAAA",
+              "ToolTip": "C:\\documenten\\NotS\\NotsPresentatie\\DemoWAPP\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T12:56:17.477Z",
               "EditorCaption": ""
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T12:52:48.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T12:52:48.572Z"
             }
           ]
         }

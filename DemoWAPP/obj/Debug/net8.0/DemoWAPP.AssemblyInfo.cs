@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoWAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+998a5234d89a067646f9e34a6007ec6fcf23b08e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c44850f442057c2b43c4b7bf628003c9547bea53")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoWAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoWAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
