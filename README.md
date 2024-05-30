@@ -36,18 +36,18 @@ var cors = require('cors');
 app.use(cors());
 ```
 
-Probeer nu de reguests (deze werken)
+Probeer nu de requests (deze werken)
 
 ---
 
-Om specefieke endpoints te enablen voor een domain kan je het volgende doen
+Op dit moment wordt de API open gesteld voor iedereen, maar dit is niet altijd wenselijk. Om specefieke endpoints open te stellen voor een domain kan je het volgende doen
 
 (stap 2.3) Open de routes/index.js en require cors
 ```
 var cors = require('cors');
 ```
 
-(stap 2.4) maak een options object
+(stap 2.4) maak een options object. Dit options object zorgt ervoor dat je alleen op localhost:3000 bij een endpoint mag.
 ```
 //cors options for localhost:3000
 var corsOptions = {
@@ -61,10 +61,11 @@ var corsOptions = {
 router.post('/register', cors(corsOptions), function (req, res, next) {
 ```
 
-Test nu of de de post request nog steeds werkt (als goed is wel). Open nu een nieuwe frontend terminal en run het volgende commando. Dit start een nieuwe frontend op `http://localhost:3001`. Deze is niet open gesteld via het options object en daardoor zou je dus een CORS error moeten krijgen.
+Test nu of de de post request nog steeds werkt. Open nu een nieuwe frontend terminal en run het volgende commando. Dit start een nieuwe frontend op `http://localhost:3001`. Deze is niet open gesteld via het options object en daardoor zou je dus een CORS error moeten krijgen.
 ```
 npm run start-3001
 ``` 
+Sluit de applicatie op 3001 af en start de orignele op poort 3000 weer op.
 
 ## Stap 3: insecure design
 
@@ -78,9 +79,11 @@ REACT_APP_API_URL='http://localhost:4000'
 process.env.REACT_APP_API_URL
 ```
 
+Start nu de frontend opnieuw op. Dit moet altijd als je de .env hebt aangemaakt/aanpegast.
+
 ---
 
-Op dit moment kan je alles meesturen via de post request, maar dit gaan we aanpassen zodat alleen email adressen verstuurd kunnen worden. Dit kan doormiddel van regex.
+Ga naar de ```app.js``` in de frontend. Op dit moment kan je alles meesturen via de post request, maar dit gaan we aanpassen zodat alleen email adressen verstuurd kunnen worden. Dit kan doormiddel van regex.
 
 (stap 3.2) maak een validEmail variabele
 ```
@@ -107,7 +110,7 @@ const handleEmailChange = (e) => {
 onChange={handleEmailChange}
 ```
 
-(stap 3.6) Disable de knop als de email niet valid is zodat er niks verstuurd kan worden
+(stap 3.6) Disable de knop als het emailadres niet valid is zodat er niks verstuurd kan worden
 ```
 disabled={!validEmail}
 ```
@@ -137,7 +140,7 @@ const limiter = rateLimit({
 app.use(limiter);
 ```
 
-Start nu weer de backend op en probeer de get request te spammen terwijl je de console open hebt. Je krijgt een 429 status code terug van de backend, maar deze wordt nog niet mooi opgevangen in de frontend. Om dit op te lossen voeg het volgende stukje code toe in de actions in de frontend (stap 3.9)
+Start nu weer de backend op en probeer de get request te spammen terwijl je de console open hebt. Je krijgt een 429 status code terug van de backend, maar deze wordt nog niet mooi opgevangen in de frontend. Om dit op te lossen voeg het volgende stukje code toe in beide actions in de frontend (stap 3.9)
 ```
 if(response.status === 429) {
   return 'Too many requests, please try again later.'

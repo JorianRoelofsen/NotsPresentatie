@@ -3,7 +3,7 @@ const API_URL = 'http://localhost:4000';
 
 export const handleGetRequest = async () => {
   try {
-    const response = await fetch(`${API_URL}/hello`);
+    const response = await fetch(`${API_URL}/randomNumber`);
     //stap 3.9
 
     const data = await response.json();

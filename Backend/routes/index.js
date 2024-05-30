@@ -4,7 +4,7 @@ var router = express.Router();
 //stap 2.4
 
 /* GET home page. */
-router.get('/hello', function (req, res, next) {
+router.get('/randomNumber', function (req, res, next) {
   // random number between 1 and 10
   const randomNumber = Math.floor(Math.random() * 10) + 1;
   res.json({
