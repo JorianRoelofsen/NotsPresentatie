@@ -3,10 +3,16 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+// stap 2.1
+// stap 3.7
 
 var indexRouter = require('./routes/index');
 
 var app = express();
+
+//stap 2.2
+
+//stap 3.8
 
 app.use(logger('dev'));
 app.use(express.json());
